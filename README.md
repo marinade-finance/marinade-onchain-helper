@@ -10,7 +10,7 @@ add to your .toml file
 marinade-onchain-helper = { git = "https://github.com/marinade-finance/liquid-staking-onchain-sdk" }
 ```
 
-Add to the begining of your file use (remove the functions not necessary):
+Add to the begining of your file use (remove unused functions):
 
 ```
 use marinade_onchain_helper::{
