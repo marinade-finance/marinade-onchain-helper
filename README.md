@@ -7,7 +7,7 @@ This Rust lib will simplify integrating CPI calls by giving out the structure ac
 add to your .toml file
 
 ```
-marinade-onchain-helper = { git = "https://github.com/marinade-finance/liquid-staking-onchain-sdk" }
+marinade-onchain-helper = { git = "https://github.com/marinade-finance/marinade-onchain-helper" }
 ```
 
 Add to the begining of your file use (remove unused functions):
