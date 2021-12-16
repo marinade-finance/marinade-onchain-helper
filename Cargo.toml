@@ -1,0 +1,21 @@
+[package]
+name = "marinade-onchain-helper"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "marinade_onchain_helper"
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.14.0"
+anchor-spl = "0.14.0"
+solana-program = "*"
+marinade-finance = { git = "https://github.com/marinade-finance/liquid-staking-program" }
