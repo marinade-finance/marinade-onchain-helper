@@ -17,5 +17,5 @@ default = []
 [dependencies]
 anchor-lang = "0.14.0"
 anchor-spl = "0.14.0"
-solana-program = "*"
+solana-program = "1.7.11"
 marinade-finance = { git = "https://github.com/marinade-finance/liquid-staking-program" }
